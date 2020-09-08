@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background: url('images/background.png');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: bottom;
+height: 100vh;
+}
+
+.navbar-dark .navbar-toggler  {
+    padding-left: 170px;
+    outline-style: none;
+    border: none;
+}
+.navbar-toggler:hover{
+    border: none !important;   
+}
+.navbar-toggler, .navbar-brand , .nav-item{
+    color: #ffffff !important;
+
+    padding-left: 170px;
+}
+.base{
+    margin-left: 20px;
+}
+
+.fa-instagram{
+    margin-right: 170px;
+}
+.fa-twitter, .fa-facebook{
+    margin-right: 20px;
+}
+.fa-twitter, .fa-facebook, .fa-instagram{
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+color: #ffffff !important;
+padding-left: 140px;
+}
+
+.text , .text1{
+   text-align: center;
+   color: #ffffff;
+   font-size: 32px;
+  
+}
+.text1{
+   
+    font-size: 17px;  
+}
+
+/* section 2  */
+
+
+.section2{
+    height: 80vh;
+    text-align: center;
+
+}
+
+.text2{
+    font-family: 'Times New Roman', Times, serif;
+    color:blue;
+    
+}
+.text3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 34px;
+  
+}
+
+/* section 3  */
+
+
+.section3 {
+    background-color: blue;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+
+.text4{
+    line-height: 36px;
+}
+
+
+/* section 4  */
+
+
+.section4{
+    text-align: center;  
+}
+.text5 {
+    color: blue;
+}
+.text6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 767px){
+   
+
+    .navbar-dark .navbar-toggler , .navbar-toggler, .navbar-brand ,
+     .nav-item, .fa-instagram {
+        padding: 0px;
+        margin: 0px;
+    }
+    .fa-twitter, .fa-facebook{
+        margin-right: 15px;   
+    }
+    
+    .background, .section2{
+        height: auto;
+    }
+    .text{
+        font-size: 24px;
+    }
+
+    .text2{
+        padding-top: 140px;
+        font-size: 22px;
+    }
+    .text3{
+        font-size: 28px;  
+        padding-bottom: 35px; 
+    }
+    .base{
+        margin-left: 0px; 
+    }
+
+    /* section 3  */
+
+
+    .sec3{
+        margin-top: 100px;
+        margin-left: 20px;
+        margin-bottom: 60px;
+    }
+  .text4{
+      line-height: auto;
+  }
+  .text5{
+    padding-top: 55px;
+    font-size: 22px;
+  }
+
+  .ml-auto, .mx-auto {
+    margin-top: -70px;
+    margin-bottom: 17px;
+  }
+
+}
+
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    
+    .background {
+        height: 50vh;
+    }
+    .section2{
+        height: 35vh; 
+    }
+    
+}
